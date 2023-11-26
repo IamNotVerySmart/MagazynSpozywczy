@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werehouse", "Werehouse\Werehouse.csproj", "{EB69BAAA-71E9-43DA-AD89-2EF12A95ED50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB69BAAA-71E9-43DA-AD89-2EF12A95ED50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB69BAAA-71E9-43DA-AD89-2EF12A95ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB69BAAA-71E9-43DA-AD89-2EF12A95ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB69BAAA-71E9-43DA-AD89-2EF12A95ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B382AC0E-494B-4438-99A5-45C5803D1E81}
+	EndGlobalSection
+EndGlobal
