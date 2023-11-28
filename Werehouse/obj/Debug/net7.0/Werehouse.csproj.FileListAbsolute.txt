@@ -1,0 +1,14 @@
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\bin\Debug\net7.0\Werehouse.exe
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\bin\Debug\net7.0\Werehouse.deps.json
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\bin\Debug\net7.0\Werehouse.runtimeconfig.json
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\bin\Debug\net7.0\Werehouse.dll
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\bin\Debug\net7.0\Werehouse.pdb
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.AssemblyInfoInputs.cache
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.AssemblyInfo.cs
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.csproj.CoreCompileInputs.cache
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.dll
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\refint\Werehouse.dll
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.pdb
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\Werehouse.genruntimeconfig.cache
+C:\Users\student\Source\Repos\MagazynSpozywczy\Werehouse\obj\Debug\net7.0\ref\Werehouse.dll

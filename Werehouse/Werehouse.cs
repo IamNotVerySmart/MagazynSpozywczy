@@ -8,18 +8,20 @@ namespace Werehouse
 {
     internal class Magazyn
     {
+        public string Name { get; set; }
         public List<Product> Products { get; set; }
         public Adress Adress { get; set; }
 
-        public Magazyn(List<Product> products, Adress adress)
+        public Magazyn(List<Product> products, Adress adress, string name)
         {
             Products = products;
             Adress = adress;
+            Name = name;
         }
 
-        /*public override string ToString()
+        public override string ToString()
         {
-            return $"Producent: \n";
-        }*/
+            return $"Nazwa: {Name}\n";
+        }
     }
 }
