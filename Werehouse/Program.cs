@@ -1,9 +1,6 @@
 ﻿using Werehouse;
 
 string input1 = "";
-string input2;
-string input3;
-string input4;
 string prName;
 string prdName;
 string prdType;
@@ -27,88 +24,102 @@ Magazyn wereh2 = new(productsList1, adress1,"magazyne2");
 List<Magazyn> magazyny = new List<Magazyn>();
 magazyny.Add(werehouse1);
 magazyny.Add(wereh2);
-/*while(input1 != "exit")
-{*/
+while(input1 != "exit")
+{
     input1 = "";
-    input2 = "";
-    input3 = "";
-    input4 = "";
-    Console.WriteLine("Type number to chose option: ");
+    Console.WriteLine("Type number to chose option(anything else will result in going back to this menu): ");
     Console.WriteLine("[1] Show products in werehouse. ");
     Console.WriteLine("[2] Show products. ");
-    Console.WriteLine("[3] Create product. ");
     input1 = Console.ReadLine()!;
 
     switch(input1)
     {
     case "1":
+            input1 = "";
             Console.Clear();
             Console.WriteLine("Which werehouse you want to look into? ");
             foreach (var m in magazyny)
             {
                 Console.WriteLine("["+ tmpNr++ + "] " + m.Name);
             }
-            input2 = Console.ReadLine()!;
+            input1 = Console.ReadLine()!;
         
-            foreach (Product product in magazyny[int.Parse(input2) - 1].Products)
+            foreach (Product product in magazyny[int.Parse(input1) - 1].Products)
             {
                 Console.WriteLine(product.ToString());
             }
             Console.WriteLine("Do you want to edit content of werehouse? ");
             Console.WriteLine("[1] Yes");
             Console.WriteLine("[2] No");
-            input3 = Console.ReadLine()!;
-            switch(input3)
+            input1 = Console.ReadLine()!;
+            switch(input1)
             {
                 case "1":
+                    input1 = "";
                     Console.Clear();
                     Console.WriteLine("[1] Add product to werehouse");
                     Console.WriteLine("[2] Delete product from werehouse");
-                    input4 = Console.ReadLine()!;
-                    switch(input4)
+                    input1 = Console.ReadLine()!;
+                    switch(input1)
                     {
                         case "1":
+                            input1 = "";
                             Console.Clear();
                             Console.WriteLine();
                             
                             break;
                         case "2":
+                            input1 = "";
                             Console.Clear();
                             Console.WriteLine();
                             break;
                     }
                     break;
                 case "2":
-                
+                    input1 = "";
+
                     break;
             }
             break;
     case "2":
-        Console.WriteLine("Products: ");
-        foreach(var p in productsList1)
-        {
-            Console.WriteLine(p.ToString());
-        }
+            input1 = "";
+            Console.WriteLine("Products: ");
+            foreach(var p in productsList1)
+            {
+                Console.WriteLine(p.ToString());
+            }
+            Console.WriteLine("\nDo you want to add another product? ");
+            Console.WriteLine("[1] YES");
+            Console.WriteLine("[2] NO");
+            input1 = Console.ReadLine()!;
+            switch(input1)
+            {
+                case "1":
+                    input1 = "";
+                    Console.Clear();
+                    Console.WriteLine("Type producer name: ");
+                    prName = Console.ReadLine()!;
+                    Console.WriteLine("Type name of product: ");
+                    prdName = Console.ReadLine()!;
+                    Console.WriteLine("Type product type: ");
+                    prdType = Console.ReadLine()!;
+                    Console.WriteLine("Type product value: ");
+                    prdValue = Console.ReadLine()!;
+                    Console.WriteLine("Type product code: ");
+                    prdCode = Console.ReadLine()!;
+                    Console.WriteLine("Type product description: ");
+                    prdDescription = Console.ReadLine()!;
+                    productsList1.Add(new(prName, prdName, prdType, int.Parse(prdCode), double.Parse(prdValue), prdDescription));
+                    break;
+                case "2":
+                    input1 = "";
+                    //exit
+                    break;
+            }
         break;
-    case "3":
-            Console.Clear();
-            Console.WriteLine("Type producer name: ");
-            prName = Console.ReadLine()!;
-            Console.WriteLine("Type name of product: ");
-            prdName = Console.ReadLine()!;
-            Console.WriteLine("Type product type: ");
-            prdType = Console.ReadLine()!;
-            Console.WriteLine("Type product value: ");
-            prdValue = Console.ReadLine()!;
-            Console.WriteLine("Type product code: ");
-            prdCode = Console.ReadLine()!;
-            Console.WriteLine("Type product description: ");
-            prdDescription = Console.ReadLine()!;
-            productsList1.Add(new(prName, prdName, prdType, int.Parse(prdCode), double.Parse(prdValue), prdDescription));
-            break;
     }
 
-/*}*/
+}
 
 /*foreach(Product product in werehouse1.Products)
 {
