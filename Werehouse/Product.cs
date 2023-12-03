@@ -8,12 +8,12 @@ namespace Werehouse
 {
     public class Product
     {
-        string ProducerName { get; set; }
-        string ProductName { get; set; }
-        string Category { get; set; }
-        int ProductCode { get; set; }
-        double Price { get; set; }
-        string Description { get; set; }
+        public string ProducerName { get; set; }
+        public string ProductName { get; set; }
+        public string Category { get; set; }
+        public int ProductCode { get; set; }
+        public double Price { get; set; }
+        public string Description { get; set; }
 
         public Product(string producerName, string productName, string category, int productCode, double price, string description)
         {
